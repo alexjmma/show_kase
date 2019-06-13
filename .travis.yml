@@ -16,4 +16,4 @@ script:
 install:
   - npm install -g firebase-tools
 after_success:
-  - firebase deploy --project travel-match-75d92 --token $FIREBASE_TOKEN
+  - firebase deploy --project show-kase --token $FIREBASE_TOKEN
