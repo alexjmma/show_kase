@@ -1,3 +1,4 @@
+
 {
   "database": {
     "rules": "database.rules.json"
@@ -12,10 +13,8 @@
     ],
     "rewrites": [
       {
-        "source": "**"
-        
-     
-    
+        "source": "**",
+        "destination": "/index.html"
       }
     ]
   }
